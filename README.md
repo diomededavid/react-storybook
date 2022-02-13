@@ -1,4 +1,16 @@
 # Storybook starter with React, Typescript, TailwindCSS and Figma using TSDX
+## Credit
+
+### Original Author: 
+Thijs Smudde - fullhdpixel
+https://github.com/fullhdpixel
+
+### Project cloned from
+  https://github.com/fullhdpixel/tailwind-storybook-starter
+
+### Course:
+Thijs Smudde - fullhdpixel
+https://www.udemy.com/course/implement-a-design-system-with-reactjs-storybook-tailwind/
 
 ## Demo
 
