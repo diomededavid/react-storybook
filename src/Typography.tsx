@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import classNames from "classnames";
 
 type TypographyVariant =
-// Text
+  // Text
   | "xs"
   | "sm"
   | "md"
@@ -41,7 +41,7 @@ const TypographyVariantClasses: Record<TypographyVariant, string> = {
 const TypographyWeightClasses: Record<
   TypographyWeightOption,
   TypographyWeightValue
-  > = {
+> = {
   regular: "font-normal",
   medium: "font-medium",
   semibold: "font-semibold",
@@ -50,21 +50,21 @@ const TypographyWeightClasses: Record<
 
 export interface TypographyProps {
   as?: "label";
-  variant: TypographyVariant;
   customColor?: string;
+  variant: TypographyVariant;
   customWeight?: TypographyWeightOption;
   className?: string;
   children: string | React.ReactNode;
 }
 
 export const Typography: FC<TypographyProps> = ({
-                                                  as,
-                                                  variant,
-                                                  customColor,
-                                                  customWeight = "regular",
-                                                  className,
-                                                  children,
-                                                }) => {
+  as,
+  variant,
+  customColor,
+  customWeight = "regular",
+  className,
+  children,
+}) => {
   const TypographyVariantClassName = TypographyVariantClasses[variant];
   const TypographyWeightClassName = TypographyWeightClasses[customWeight];
 
